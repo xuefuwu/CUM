@@ -1,0 +1,17 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\obj\Debug\code.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\obj\Debug\code.Form1.resources
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\obj\Debug\code.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\obj\Debug\code.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\bin\Debug\code.exe.config
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\bin\Debug\code.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\bin\Debug\code.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\obj\Debug\code.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\JYManager\code\obj\Debug\code.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\Clutch.Diagnostics.EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\code\bin\Debug\Clutch.dll

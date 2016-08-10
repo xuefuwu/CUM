@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP", "BBP.csproj", "{FC3B5384-633A-4CE4-B79A-64C78095A69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "code", "..\code\code.csproj", "{F33C0A78-7591-4671-945A-BD0884A799DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC3B5384-633A-4CE4-B79A-64C78095A69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3B5384-633A-4CE4-B79A-64C78095A69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3B5384-633A-4CE4-B79A-64C78095A69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3B5384-633A-4CE4-B79A-64C78095A69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33C0A78-7591-4671-945A-BD0884A799DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33C0A78-7591-4671-945A-BD0884A799DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33C0A78-7591-4671-945A-BD0884A799DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33C0A78-7591-4671-945A-BD0884A799DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

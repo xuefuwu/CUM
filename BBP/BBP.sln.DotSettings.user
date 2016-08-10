@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/ContinuousTesting/PersistentDataLocation/@EntryValue">C:\Users\Administrator\AppData\Local\Temp\2\JetBrains\ContinuousTesting\367ffc2a-9f33-4459-9032-4ab21938348c</s:String>
+	<s:String x:Key="/Default/Environment/ContinuousTesting/ScopeCriterion/@EntryValue">9b0nIQIAAACJbLoh162VEtEO3FwfAAAAQwBvAG4AdABpAG4AdQBvAHUAcwBUAGUAcwB0AGkAbgBnAEgAbwBzAHQAUAByAG8AdgBpAGQAZQByAEkAZAA=</s:String>
+	<s:String x:Key="/Default/Environment/ContinuousTesting/Strategy/@EntryValue">RunTests</s:String>
+	<s:String x:Key="/Default/Environment/ContinuousTesting/TriggerMode/@EntryValue">OnSave</s:String>
+	<s:Int64 x:Key="/Default/Environment/ContinuousTestingSessionDescriptor/GroupingIndex/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

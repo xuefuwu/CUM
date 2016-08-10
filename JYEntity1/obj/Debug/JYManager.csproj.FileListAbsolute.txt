@@ -1,0 +1,15 @@
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\JYManager.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\JYManager.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\obj\Debug\JYManager.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\obj\Debug\JYManager.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\EntityFramework.Extended.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\EntityFramework.SqlServer.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\EntityFramework.Extended.xml
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\EntityFramework.SqlServer.xml
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\obj\Debug\JYManager.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\FineUI.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\FineUI.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\JYManager\JYManager\bin\Newtonsoft.Json.xml

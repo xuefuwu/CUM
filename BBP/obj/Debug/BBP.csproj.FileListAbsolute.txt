@@ -34,3 +34,5 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\BBP\bin\C
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\BBP\obj\Debug\BBP.Migrations.updateqrqid.resources
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\BBP\obj\Debug\BBP.Migrations.addfeedback.resources
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\BBP\obj\Debug\BBP.Migrations.feedback.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\BBP\obj\Debug\BBP.Migrations.updateExaminationIdcase.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\JYManager\BBP\obj\Debug\BBP.Migrations.updatequestresult.resources

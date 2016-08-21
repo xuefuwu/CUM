@@ -72,7 +72,7 @@ namespace BBP.Areas.Admin.Controllers
         // POST: /Admin/ExamineeType/Edit/5
 
         [HttpPost]
-        public ActionResult Edit([ModelBinder(typeof(JsonModelBinder<ExamineeType>))]ExamineeType examineeType)
+        public JsonResult Edit([ModelBinder(typeof(JsonModelBinder<ExamineeType>))]ExamineeType examineeType)
         {
             if (ModelState.IsValid)
             {
@@ -94,9 +94,9 @@ namespace BBP.Areas.Admin.Controllers
 
                 entry.State = System.Data.Entity.EntityState.Modified;
                 DB.SaveChanges();
-                return RedirectToAction("Index");
+
             }
-            return View(examineeType);
+            return new JsonResult();
         }
 
         //

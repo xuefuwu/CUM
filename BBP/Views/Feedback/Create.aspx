@@ -17,6 +17,7 @@
                 </div>
             </div>
         </div>
+        <input name="imgsurl" id="imgsurl" type="hidden" />
         <div class="form-group">
             <div id="uploader" class="wu-example">
                 <div class="queueList">
@@ -60,8 +61,16 @@
     <script src="/js/plugins/summernote/summernote.min.js"></script>
     <script src="/js/plugins/summernote/summernote-zh-CN.js"></script>
     <script>
+        function uploadSuccess(file, response) {
+            var imgurl = JSON.parse(response);
+            alert(imgurl.url);
+            var iv = $("#imgsurl").val();
+            iv += imgurl.url.split("~")[1]+";";
+            $("#imgsurl").val(iv);
+        }
         $(document).ready(function () {
 
+            
             $('.summernote').summernote({
                 lang: 'zh-CN'
             });

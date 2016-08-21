@@ -110,7 +110,7 @@ namespace BBP.Controllers
         public JsonResult UploadImg()
         {
             JsonResult res = new JsonResult();
-
+            String imgurl = "";
             if (Request.Form.AllKeys.Any(m => m == "chunk"))
             {
                 //取得chunk和chunks
@@ -143,13 +143,16 @@ namespace BBP.Controllers
                 if (chunk == (chunks - 1))
                 {
                     FileInfo fileinfo = new FileInfo(path);
-                    fileinfo.MoveTo(Server.MapPath("~/Uploads/" + Request.Files[0].FileName));
+                    imgurl = @"~/Uploads/" + Request.Files[0].FileName;
+                    fileinfo.MoveTo(Server.MapPath(imgurl));
                 }
             }
             else//没有分片直接保存
             {
-                Request.Files[0].SaveAs(Server.MapPath("~/Uploads/" + Request.Files[0].FileName));
+                imgurl = @"~/Uploads/" + Request.Files[0].FileName;
+                Request.Files[0].SaveAs(Server.MapPath(imgurl));
             }
+            res.Data = res.Data = "{\"url\":\"" + imgurl + "\"}";
             return res;
         }
     }

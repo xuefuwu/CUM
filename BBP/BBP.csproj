@@ -159,6 +159,14 @@
     <Compile Include="Migrations\201608050657433_feedback.Designer.cs">
       <DependentUpon>201608050657433_feedback.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608160130091_updateExaminationIdcase.cs" />
+    <Compile Include="Migrations\201608160130091_updateExaminationIdcase.Designer.cs">
+      <DependentUpon>201608160130091_updateExaminationIdcase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608170029370_updatequestresult.cs" />
+    <Compile Include="Migrations\201608170029370_updatequestresult.Designer.cs">
+      <DependentUpon>201608170029370_updatequestresult.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\exam\Attrs.cs" />
     <Compile Include="Models\exam\AttrType.cs" />
@@ -383,6 +391,40 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="img\a1.jpg" />
+    <Content Include="img\a2.jpg" />
+    <Content Include="img\a3.jpg" />
+    <Content Include="img\a4.jpg" />
+    <Content Include="img\a5.jpg" />
+    <Content Include="img\a6.jpg" />
+    <Content Include="img\a7.jpg" />
+    <Content Include="img\a8.jpg" />
+    <Content Include="img\a9.jpg" />
+    <Content Include="img\alipay_qr_code.png" />
+    <Content Include="img\bg.png" />
+    <Content Include="img\iconfont-logo.png" />
+    <Content Include="img\icons.png" />
+    <Content Include="img\index.jpg" />
+    <Content Include="img\index_4.jpg" />
+    <Content Include="img\loading-upload.gif" />
+    <Content Include="img\p1.jpg" />
+    <Content Include="img\p2.jpg" />
+    <Content Include="img\p3.jpg" />
+    <Content Include="img\p4.jpg" />
+    <Content Include="img\p5.jpg" />
+    <Content Include="img\p6.jpg" />
+    <Content Include="img\p7.jpg" />
+    <Content Include="img\p8.jpg" />
+    <Content Include="img\profile.jpg" />
+    <Content Include="img\profile_big.jpg" />
+    <Content Include="img\profile_small.jpg" />
+    <Content Include="img\progress.png" />
+    <Content Include="img\p_big1.jpg" />
+    <Content Include="img\p_big2.jpg" />
+    <Content Include="img\p_big3.jpg" />
+    <Content Include="img\qr_code.png" />
+    <Content Include="img\success.png" />
+    <Content Include="img\wenku_logo.png" />
     <Content Include="js\plugins\editableSelect\jquery.editable.select.js" />
     <Content Include="js\plugins\editableSelect\jquery.editable.select.min.js" />
     <Content Include="js\plugins\layer\layim\data\chatlog.json" />
@@ -518,6 +560,7 @@
     <Content Include="Views\ExaminationTask\Edit.aspx" />
     <Content Include="Views\ExaminationTask\Index.aspx" />
     <Content Include="Views\Examination\Create.aspx" />
+    <Content Include="Views\Examination\Details.aspx" />
     <Content Include="Views\Examination\Index.aspx" />
     <Content Include="Views\Feedback\Create.aspx" />
     <Content Include="Views\Feedback\Index.aspx" />
@@ -594,6 +637,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608050657433_feedback.resx">
       <DependentUpon>201608050657433_feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608160130091_updateExaminationIdcase.resx">
+      <DependentUpon>201608160130091_updateExaminationIdcase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608170029370_updatequestresult.resx">
+      <DependentUpon>201608170029370_updatequestresult.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

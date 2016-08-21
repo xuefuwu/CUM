@@ -153,7 +153,7 @@
                             name: 'SortBy',
                             index: 'SortBy',
                             editable: true,
-                            //edittype: 'int',
+                            editopions:{defaultValue:0},
                             sorttype: 'int',
                             sortable: true,
                             width: 80

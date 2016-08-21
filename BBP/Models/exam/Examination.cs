@@ -30,7 +30,7 @@ namespace BBP
         [Key]
         public int ID { get; set; }
 
-        public virtual Question Question { get; set; }
+        public virtual ExamQuestion Question { get; set; }
 
         public String QuestionAnswer { get; set; }
     }

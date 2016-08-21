@@ -38,7 +38,7 @@ namespace BBP.Controllers
         // POST: /Examination/Create
 
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public JsonResult Create(FormCollection collection)
         {
             String jsonData = collection[0];
             JObject jsonBody = JObject.Parse(jsonData);
@@ -49,7 +49,7 @@ namespace BBP.Controllers
             IList<QuestionResult> qrList = new List<QuestionResult>();
             foreach (var question in questions)
             {
-                Question q = DB.Questions.Find(Convert.ToInt32(question["ID"]));
+                ExamQuestion q = DB.ExamQuestions.Find(Convert.ToInt32(question["ID"]));
                 qrList.Add(new QuestionResult() { Question = q, QuestionAnswer = question["QuestionAnswer"].ToString() });
             }
             //遍历Examinee，套入QuestionResult
@@ -57,13 +57,13 @@ namespace BBP.Controllers
             {
                 ExaminationTask et = DB.ExaminationTasks.Find(Convert.ToInt32(taskid));
                 Examinee ex = DB.Examinees.Find(Convert.ToInt32(exam));
-                Examination examination = new Examination() {Examinee = ex, QuestionResults = qrList,ExaminationTask=et};
+                Examination examination = new Examination() { Examinee = ex, QuestionResults = qrList, ExaminationTask = et };
                 DB.Examinations.Add(examination);
                 DB.SaveChanges();
             }
-                //DB.Examinations.Add(ex);
-               // DB.SaveChanges();
-                return RedirectToAction("Index");
+            //DB.Examinations.Add(ex);
+            // DB.SaveChanges();
+            return  new JsonResult();;
 
         }
 

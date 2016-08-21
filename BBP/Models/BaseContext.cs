@@ -212,7 +212,7 @@ namespace BBP
             modelBuilder.Entity<Examination>()
                 .HasMany(e => e.QuestionResults)
                 .WithOptional()
-                .Map(x => x.MapKey("ExaminationId"));
+                .Map(x => x.MapKey("ExaminationId")).WillCascadeOnDelete(true);
             modelBuilder.Entity<QuestionResult>()
                 .HasOptional(e => e.Question)
                 .WithMany()

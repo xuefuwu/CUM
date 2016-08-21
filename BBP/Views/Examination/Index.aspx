@@ -33,7 +33,7 @@
                                    { %>
                                 <tr>
                                     <td><%: et.Examinee.Name %></td>
-                                    <td><%: Html.ActionLink("编辑", "Edit", new { id=et.ID }) %>|<%: Html.ActionLink("删除", "Delete", new { id=et.ID }) %>|<%:Html.ActionLink("提交整改报告","Create","Feedback",new {ExamId = et.ID},new {}) %>
+                                    <td><%: Html.ActionLink("编辑", "Edit", new { id=et.ID }) %>|<%: Html.ActionLink("删除", "Delete", new { id=et.ID }) %>|<%:Html.ActionLink("提交整改报告","Create","Feedback",new {ExamId = et.ID},new {}) %>|<%:Html.ActionLink("查看完整报告","Details",new {id = et.ID}) %>
                                     </td>
                                 </tr>
                                 <% } %>
